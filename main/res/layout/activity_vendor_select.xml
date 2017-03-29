@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tossit.VendorSelect">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="Where did you eat?"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/background_light"
+        android:onClick="openPandaList"
+        android:scaleType="centerInside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:srcCompat="@drawable/panda" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:onClick="openBreadList"
+        android:text="@string/button_charles_river"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+</android.support.constraint.ConstraintLayout>

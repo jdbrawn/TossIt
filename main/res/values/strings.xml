@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TossIt</string>
+    <string name="button_charles_river">Charles River Bread Co</string>
+    <string name="check_box_sandwich">Sandwich</string>
+    <string name="check_box_salad">Salad</string>
+    <string name="item_select_title">Select what you ordered:</string>
+    <string name="button_for_here">For Here</string>
+    <string name="button_to_go">To Go</string>
+    <string name="check_2entree">Entree Plate</string>
+    <string name="check_entree_bowl">Entree Bowl</string>
+    <string name="check_side">Side</string>
+</resources>
